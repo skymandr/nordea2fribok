@@ -25,7 +25,7 @@
 """
 
 import logging
-from os import linesep, path
+from os import path
 from typing import List, Optional
 
 LICENSE = """csv2fribok.py  Copyright (C) 2022  Andreas Skyman
@@ -106,7 +106,7 @@ def save_csv(csv: CSV, outfile: str, separator: str, force: bool) -> None:
         )
     with open(outfile, 'w') as fp:
         for row in csv:
-            line = separator.join(row) + linesep
+            line = separator.join(row) + '\n'
             fp.write(line)
 
 

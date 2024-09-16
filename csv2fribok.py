@@ -4,7 +4,7 @@
     - a python script for converting Nordea files in CSV
     (comma separted values) format CSV for import in FriBok.
 
-    (C) 2022 Andreas Skyman (skymandr@fripost.org)
+    (C) 2022 Ida-Sofia Skyman (skymandr@fripost.org)
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -28,7 +28,7 @@ import logging
 from os import path
 from typing import List, Optional
 
-LICENSE = """csv2fribok.py  Copyright (C) 2022  Andreas Skyman
+LICENSE = """csv2fribok.py  Copyright (C) 2022  Ida-Sofia Skyman
 
 This program comes with ABSOLUTELY NO WARRANTY!
 This is free software, and you are welcome to redistribute it

@@ -31,7 +31,7 @@ No special dependencies are necessary.
     csv2fribok – a Python script for converting Nordea formatted CSV to a
     format compatible with Fribok
     
-    Copyright (C) 2022  Andreas Skyman
+    Copyright (C) 2022  Ida-Sofia Skyman
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
